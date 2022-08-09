@@ -1,0 +1,1134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BlueCollar</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicons/favicon-16x16.png">
+    <link rel="manifest" href="images/favicons/site.webmanifest">
+
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/splide-core.min.css"/>
+    <link rel="stylesheet" href="css/style.css" />
+
+    <script src="js/aos.js"></script>
+    <script src="js/splide.min.js" defer></script>
+    <script src="js/main.js" defer></script>
+  </head>
+  <body>
+    <header class="header" >
+      <div class="header-top">
+        <div class="container">
+          <div class="flex-wrapper header-top__wrapper">
+            <p data-aos="fade-right">Opening Hours: 06:00 to 20:00</p>
+            <ul class="header-top__icons-wrapper">
+              <li data-aos="fade-left">
+                <a class="header-top__icon" href="" title="facebook">
+                  <svg
+                    width="19"
+                    height="18"
+                    viewBox="0 0 19 18"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M18.5147 9.50731C18.5147 4.7675 14.5237 0.924316 9.60158 0.924316C4.67948 0.924316 0.688477 4.7675 0.688477 9.50731C0.688477 13.7911 3.94733 17.342 8.20891 17.9865V11.9891H5.94522V9.50731H8.20891V7.61637C8.20891 5.46564 9.53991 4.27666 11.5756 4.27666C12.5509 4.27666 13.5711 4.44449 13.5711 4.44449V6.5569H12.4466C11.34 6.5569 10.9939 7.21825 10.9939 7.898V9.50731H13.4657L13.0709 11.9891H10.9943V17.9872C15.2558 17.3431 18.5147 13.7923 18.5147 9.50731Z"
+                      fill="#1C2752"
+                    />
+                  </svg>
+                </a>
+              </li>
+              <li data-aos="fade-left" data-aos-delay="200">
+                <a class="header-top__icon" href="" title="twitter">
+                  <svg
+                    width="20"
+                    height="17"
+                    viewBox="0 0 20 17"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M19.4765 2.65911C18.76 2.97042 18.002 3.17551 17.2263 3.26791C18.0415 2.79057 18.6545 2.03224 18.9504 1.13513C18.1797 1.5858 17.3379 1.90201 16.4611 2.07021C16.0919 1.68326 15.6479 1.37543 15.156 1.16543C14.6641 0.955431 14.1346 0.847651 13.5998 0.84864C11.4344 0.84864 9.682 2.57555 9.682 4.70435C9.68046 5.00046 9.71439 5.29569 9.78306 5.58373C8.23031 5.51093 6.70984 5.11483 5.31894 4.42075C3.92805 3.72667 2.69734 2.7499 1.70556 1.55293C1.35762 2.1395 1.17361 2.80874 1.17277 3.49074C1.17277 4.8277 1.8703 6.00949 2.92355 6.70184C2.29953 6.68703 1.68829 6.52187 1.14173 6.22038V6.26813C1.14173 8.13829 2.49461 9.6941 4.28519 10.0482C3.94848 10.138 3.6015 10.1835 3.25302 10.1835C3.00575 10.184 2.75905 10.16 2.5165 10.1119C3.01428 11.6438 4.46306 12.758 6.17923 12.7898C4.78471 13.8645 3.07262 14.4454 1.31203 14.4411C0.999525 14.4407 0.687306 14.4221 0.376953 14.3854C2.168 15.5291 4.24995 16.134 6.375 16.1282C13.5914 16.1282 17.5339 10.2512 17.5339 5.15399C17.5339 4.98687 17.5295 4.81975 17.5215 4.6566C18.2868 4.11229 18.9488 3.43587 19.4765 2.65911Z"
+                      fill="#1C2752"
+                    />
+                  </svg>
+                </a>
+              </li>
+              <li data-aos="fade-left" data-aos-delay="400">
+                <a class="header-top__icon" href="" title="pinterest">
+                  <svg
+                    width="19"
+                    height="19"
+                    viewBox="0 0 19 19"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M9.39535 0C4.394 0 0.338745 4.05345 0.338745 9.05256C0.338745 12.7585 2.57055 15.943 5.76058 17.3454C5.73632 16.7149 5.75654 15.9551 5.91826 15.2681C6.09212 14.5326 7.08268 10.3337 7.08268 10.3337C7.08268 10.3337 6.79158 9.75575 6.79158 8.90304C6.79158 7.56132 7.56786 6.55907 8.53821 6.55907C9.36301 6.55907 9.75923 7.17739 9.75923 7.91695C9.75923 8.74542 9.22958 9.98207 8.95869 11.1298C8.73228 12.0916 9.43983 12.8716 10.39 12.8716C12.1042 12.8716 13.2606 10.6691 13.2606 8.0584C13.2606 6.07411 11.9223 4.59094 9.49239 4.59094C6.7471 4.59094 5.03282 6.63989 5.03282 8.92728C5.03282 9.71534 5.26732 10.273 5.6312 10.7014C5.79697 10.8994 5.82123 10.9803 5.76058 11.2066C5.7161 11.3723 5.61907 11.7724 5.5746 11.934C5.51395 12.1644 5.32796 12.2452 5.12177 12.1603C3.85627 11.6431 3.26597 10.2609 3.26597 8.70097C3.26597 6.13069 5.43713 3.04716 9.73902 3.04716C13.1959 3.04716 15.4722 5.54874 15.4722 8.23217C15.4722 11.7845 13.4951 14.4356 10.584 14.4356C9.60559 14.4356 8.6878 13.9062 8.37244 13.3081C8.37244 13.3081 7.84683 15.3934 7.73363 15.7975C7.5436 16.4967 7.16759 17.1918 6.82392 17.7374C7.65757 17.9832 8.52214 18.1084 9.39131 18.1092C14.3927 18.1092 18.4479 14.0557 18.4479 9.05661C18.4479 4.05749 14.3967 0 9.39535 0Z"
+                      fill="#1C2752"
+                    />
+                  </svg>
+                </a>
+              </li>
+              <li data-aos="fade-left" data-aos-delay="600">
+                <a class="header-top__icon" href="" title="instagram">
+                  <svg
+                    width="18"
+                    height="19"
+                    viewBox="0 0 18 19"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M12.6268 2.35469C13.6109 2.35752 14.5539 2.73524 15.2498 3.40535C15.9456 4.07546 16.3379 4.98351 16.3408 5.93119V13.0834C16.3379 14.0311 15.9456 14.9392 15.2498 15.6093C14.5539 16.2794 13.6109 16.6571 12.6268 16.6599H5.19944C4.21532 16.6571 3.27234 16.2794 2.57645 15.6093C1.88057 14.9392 1.48832 14.0311 1.48539 13.0834V5.93119C1.48832 4.98351 1.88057 4.07546 2.57645 3.40535C3.27234 2.73524 4.21532 2.35752 5.19944 2.35469H12.6268ZM12.6268 0.924316H5.19944C2.33969 0.924316 0 3.17735 0 5.93119V13.0834C0 15.8373 2.33969 18.0903 5.19944 18.0903H12.6268C15.4865 18.0903 17.8262 15.8373 17.8262 13.0834V5.93119C17.8262 3.17735 15.4865 0.924316 12.6268 0.924316Z"
+                      fill="#1C2752"
+                    />
+                    <path
+                      d="M13.7409 5.93139C13.5205 5.93139 13.3051 5.86847 13.1219 5.75058C12.9387 5.63269 12.7959 5.46513 12.7116 5.26909C12.6272 5.07305 12.6052 4.85733 12.6482 4.64921C12.6912 4.44109 12.7973 4.24993 12.9531 4.09988C13.1089 3.94984 13.3074 3.84766 13.5235 3.80626C13.7397 3.76486 13.9637 3.78611 14.1673 3.86731C14.3708 3.94852 14.5448 4.08603 14.6673 4.26246C14.7897 4.4389 14.855 4.64632 14.855 4.85852C14.8553 4.9995 14.8267 5.13914 14.7709 5.26945C14.715 5.39975 14.6329 5.51815 14.5294 5.61783C14.4259 5.71752 14.3029 5.79653 14.1676 5.85034C14.0323 5.90415 13.8873 5.9317 13.7409 5.93139ZM8.9131 6.64639C9.50074 6.64639 10.0752 6.81419 10.5638 7.12857C11.0524 7.44296 11.4332 7.8898 11.6581 8.41261C11.883 8.93541 11.9418 9.51069 11.8272 10.0657C11.7125 10.6207 11.4296 11.1305 11.014 11.5306C10.5985 11.9308 10.0691 12.2033 9.49274 12.3137C8.91639 12.4241 8.31899 12.3674 7.77608 12.1508C7.23317 11.9343 6.76914 11.5676 6.44266 11.0971C6.11619 10.6266 5.94193 10.0734 5.94193 9.50751C5.94277 8.74894 6.25608 8.02168 6.81309 7.48529C7.37011 6.9489 8.12535 6.6472 8.9131 6.64639ZM8.9131 5.21602C8.03167 5.21602 7.17005 5.46771 6.43717 5.93926C5.70429 6.41082 5.13309 7.08106 4.79578 7.86523C4.45847 8.6494 4.37022 9.51227 4.54218 10.3447C4.71413 11.1772 5.13858 11.9419 5.76184 12.5421C6.3851 13.1422 7.17918 13.551 8.04367 13.7165C8.90815 13.8821 9.80422 13.7972 10.6185 13.4723C11.4329 13.1475 12.1289 12.5975 12.6186 11.8917C13.1083 11.186 13.3696 10.3563 13.3696 9.50751C13.3696 8.36934 12.9001 7.27778 12.0644 6.47297C11.2286 5.66815 10.095 5.21602 8.9131 5.21602Z"
+                      fill="#1C2752"
+                    />
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="header-main" id="headerMain">
+        <div class="container header-main__container">
+          <div class="flex-wrapper header-main__wrapper">
+            <div class="flex-wrapper header-main__logo-wrapper"> <!-- for wrap logo and burger menu  for mobile -->
+              <a href="/" class="logo header-logo">
+                <svg data-aos="fade-right" width="44" height="45" viewBox="0 0 44 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M39.0644 27.098H44V23H29.733C29.4735 27.2521 25.9028 30.626 21.5381 30.626C17.1734 30.626 13.6027 27.2521 13.3432 23H3.58201e-07L0 27.098H4.07408C4.29205 27.9402 4.57749 28.767 4.92003 29.5784C5.30927 30.4925 5.77118 31.3655 6.30574 32.1923L2.74027 35.7203L8.35575 41.2768L11.9264 37.7437C12.7516 38.2624 13.6235 38.7143 14.5317 39.0943C15.5541 39.5205 16.6077 39.8543 17.682 40.0854V45H25.6329V40.0443C26.645 39.8133 27.6362 39.4949 28.6015 39.0943C29.5773 38.6886 30.5062 38.2007 31.3833 37.6359L34.8917 41.1074L40.5124 35.5457L36.9469 32.0177C37.4348 31.2423 37.8552 30.4258 38.2184 29.5784C38.561 28.767 38.8464 27.9402 39.0644 27.098Z"
+                    fill="#1C2752" />
+                  <path
+                    d="M36.9436 5.17054V13.4455C36.9436 14.0071 36.4796 14.4627 35.9078 14.4627H35.1741C34.6022 14.4627 34.1383 14.0071 34.1383 13.4455V3.01968C32.0127 1.63169 29.6282 0.59334 27.0711 0V14.3567C27.0711 14.9183 26.6071 15.3739 26.0353 15.3739H17.9431C17.3712 15.3739 16.9073 14.9183 16.9073 14.3567V0C14.3825 0.59334 11.998 1.64228 9.87248 3.01968V13.4455C9.87248 14.0071 9.40853 14.4627 8.83668 14.4627H8.10299C7.53114 14.4627 7.06718 14.0071 7.06718 13.4455V5.17054C2.72977 9.112 0 14.7381 0 21H44C44.0108 14.7381 41.2918 9.112 36.9436 5.17054Z"
+                    fill="#FFB342" />
+                </svg>
+                <svg data-aos="fade-left" data-aos-duration="1500" width="172" height="27" viewBox="0 0 172 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M0.00732422 26.0002V1.32523H11.3823C14.089 1.32523 16.1773 1.89693 17.6473 3.04023C19.1173 4.18353 19.8523 5.74693 19.8523 7.73023C19.8523 9.20023 19.409 10.4485 18.5223 11.4752C17.659 12.5019 16.469 13.1902 14.9523 13.5402V12.9802C16.7256 13.2835 18.0906 13.9602 19.0473 15.0102C20.0273 16.0369 20.5173 17.3785 20.5173 19.0352C20.5173 21.2285 19.7356 22.9435 18.1723 24.1802C16.6323 25.3935 14.4973 26.0002 11.7673 26.0002H0.00732422ZM5.22232 21.9402H11.1023C12.4556 21.9402 13.494 21.6835 14.2173 21.1702C14.9406 20.6569 15.3023 19.8402 15.3023 18.7202C15.3023 17.5769 14.9406 16.7602 14.2173 16.2702C13.494 15.7569 12.4556 15.5002 11.1023 15.5002H5.22232V21.9402ZM5.22232 11.4752H10.4023C11.8256 11.4752 12.8756 11.2185 13.5523 10.7052C14.229 10.1919 14.5673 9.42194 14.5673 8.39524C14.5673 7.39194 14.229 6.63354 13.5523 6.12024C12.8756 5.60694 11.8256 5.35023 10.4023 5.35023H5.22232V11.4752ZM24.0274 26.0002V13.1202V0.240234H29.3124V26.0002H24.0274ZM40.0719 26.3852C37.8552 26.3852 36.2102 25.7785 35.1369 24.5652C34.0636 23.3285 33.5269 21.4619 33.5269 18.9652V8.25523H38.8119V18.9652C38.8119 20.0852 39.0336 20.9135 39.4769 21.4502C39.9436 21.9869 40.6552 22.2552 41.6119 22.2552C42.6619 22.2552 43.525 21.8935 44.202 21.1702C44.902 20.4235 45.252 19.4319 45.252 18.1952V8.25523H50.537V26.0002H45.392V22.6052H45.882C45.345 23.7952 44.575 24.7285 43.572 25.4052C42.5919 26.0585 41.4252 26.3852 40.0719 26.3852ZM63.817 26.3852C60.737 26.3852 58.333 25.5569 56.607 23.9002C54.88 22.2435 54.017 19.9919 54.017 17.1452C54.017 15.3019 54.378 13.6919 55.102 12.3152C55.848 10.9385 56.875 9.86523 58.182 9.09523C59.512 8.30193 61.063 7.90524 62.837 7.90524C64.587 7.90524 66.045 8.27853 67.212 9.02523C68.402 9.77193 69.288 10.8219 69.872 12.1752C70.478 13.5052 70.782 15.0569 70.782 16.8302V18.0552H58.357V15.4302H66.932L66.337 15.9202C66.337 14.4502 66.033 13.3419 65.427 12.5952C64.843 11.8252 63.992 11.4402 62.872 11.4402C61.635 11.4402 60.678 11.8952 60.002 12.8052C59.348 13.7152 59.022 15.0219 59.022 16.7252V17.2852C59.022 19.0119 59.442 20.2952 60.282 21.1352C61.145 21.9752 62.382 22.3952 63.992 22.3952C64.948 22.3952 65.847 22.2785 66.687 22.0452C67.55 21.7885 68.367 21.3919 69.137 20.8552L70.607 24.3552C69.72 25.0085 68.693 25.5102 67.527 25.8602C66.383 26.2102 65.147 26.3852 63.817 26.3852ZM86.42 26.3852C83.783 26.3852 81.52 25.8602 79.63 24.8102C77.74 23.7602 76.282 22.2902 75.255 20.4002C74.252 18.4869 73.75 16.2352 73.75 13.6452C73.75 11.0552 74.252 8.81523 75.255 6.92523C76.282 5.03523 77.74 3.56523 79.63 2.51523C81.52 1.46523 83.783 0.940234 86.42 0.940234C88.123 0.940234 89.675 1.18523 91.075 1.67523C92.475 2.14193 93.665 2.83023 94.645 3.74023L92.93 8.04523C91.857 7.20523 90.83 6.61023 89.85 6.26023C88.893 5.91023 87.808 5.73523 86.595 5.73523C84.285 5.73523 82.512 6.42353 81.275 7.80023C80.062 9.15353 79.455 11.1019 79.455 13.6452C79.455 16.1885 80.062 18.1485 81.275 19.5252C82.512 20.9019 84.285 21.5902 86.595 21.5902C87.808 21.5902 88.893 21.4152 89.85 21.0652C90.83 20.7152 91.857 20.1202 92.93 19.2802L94.645 23.5852C93.665 24.4719 92.475 25.1602 91.075 25.6502C89.675 26.1402 88.123 26.3852 86.42 26.3852ZM105.264 26.3852C103.374 26.3852 101.729 26.0119 100.329 25.2652C98.953 24.4952 97.879 23.4219 97.109 22.0452C96.363 20.6685 95.989 19.0235 95.989 17.1102C95.989 15.2202 96.363 13.5869 97.109 12.2102C97.879 10.8335 98.953 9.77193 100.329 9.02523C101.729 8.27853 103.374 7.90524 105.264 7.90524C107.154 7.90524 108.799 8.27853 110.199 9.02523C111.599 9.77193 112.673 10.8335 113.419 12.2102C114.189 13.5869 114.574 15.2202 114.574 17.1102C114.574 19.0235 114.189 20.6685 113.419 22.0452C112.673 23.4219 111.599 24.4952 110.199 25.2652C108.799 26.0119 107.154 26.3852 105.264 26.3852ZM105.264 22.3952C106.478 22.3952 107.434 21.9635 108.134 21.1002C108.858 20.2369 109.219 18.9069 109.219 17.1102C109.219 15.3135 108.858 13.9952 108.134 13.1552C107.434 12.3152 106.478 11.8952 105.264 11.8952C104.051 11.8952 103.083 12.3152 102.359 13.1552C101.659 13.9952 101.309 15.3135 101.309 17.1102C101.309 18.9069 101.659 20.2369 102.359 21.1002C103.083 21.9635 104.051 22.3952 105.264 22.3952ZM144.091 26.3852C142.551 26.3852 141.198 26.0119 140.031 25.2652C138.865 24.5185 137.955 23.4569 137.301 22.0802C136.648 20.7035 136.321 19.0469 136.321 17.1102C136.321 15.1969 136.648 13.5519 137.301 12.1752C137.955 10.7985 138.865 9.74853 140.031 9.02523C141.198 8.27853 142.551 7.90524 144.091 7.90524C145.515 7.90524 146.786 8.25523 147.906 8.95523C149.05 9.63193 149.796 10.5535 150.146 11.7202H149.761L150.181 8.25523H155.256C155.186 9.02523 155.116 9.80694 155.046 10.6002C155 11.3702 154.976 12.1285 154.976 12.8752V26.0002H149.726L149.691 22.6752H150.111C149.738 23.7952 148.991 24.6935 147.871 25.3702C146.751 26.0469 145.491 26.3852 144.091 26.3852ZM145.701 22.3952C146.915 22.3952 147.895 21.9635 148.641 21.1002C149.388 20.2369 149.761 18.9069 149.761 17.1102C149.761 15.3135 149.388 13.9952 148.641 13.1552C147.895 12.3152 146.915 11.8952 145.701 11.8952C144.488 11.8952 143.508 12.3152 142.761 13.1552C142.015 13.9952 141.641 15.3135 141.641 17.1102C141.641 18.9069 142.003 20.2369 142.726 21.1002C143.473 21.9635 144.465 22.3952 145.701 22.3952ZM159.276 26.0002V12.9452C159.276 12.1752 159.252 11.3935 159.206 10.6002C159.182 9.80694 159.124 9.02523 159.031 8.25523H164.106L164.701 13.4352H163.896C164.129 12.1752 164.502 11.1369 165.016 10.3202C165.552 9.50353 166.206 8.89693 166.976 8.50023C167.769 8.10353 168.667 7.90524 169.671 7.90524C170.114 7.90524 170.464 7.92853 170.721 7.97523C170.977 7.99853 171.234 8.05693 171.491 8.15023L171.456 12.8052C170.966 12.5952 170.546 12.4669 170.196 12.4202C169.869 12.3502 169.449 12.3152 168.936 12.3152C167.956 12.3152 167.139 12.5019 166.486 12.8752C165.856 13.2485 165.377 13.7969 165.051 14.5202C164.747 15.2435 164.596 16.1185 164.596 17.1452V26.0002H159.276Z"
+                    fill="#1C2752" />
+                  <path d="M117.987 26.0002V0.240234H123.272V26.0002H117.987ZM127.592 26.0002V0.240234H132.877V26.0002H127.592Z"
+                    fill="#FFB342" />
+                </svg>
+              </a>
+              <a href="#headerMain" class="burger" id="burgerMenu">
+                <span></span>
+              </a>
+            </div>
+            <ul class="contacts-info header-main__contacts-info">
+              <li class="contacts-info__item header-main__contacts-item">
+                <div data-aos="fade" data-aos-duration="1000" class="contacts-info__icon header-main__contacts-icon">
+                  <svg
+                    width="28"
+                    height="22"
+                    viewBox="0 0 28 22"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M24.5 1H3.5C2.11929 1 1 2.11929 1 3.5V18.5C1 19.8807 2.11929 21 3.5 21H24.5C25.8807 21 27 19.8807 27 18.5V3.5C27 2.11929 25.8807 1 24.5 1Z"
+                      stroke="#1C2752"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M5 5L14 12L23 5"
+                      stroke="#1C2752"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+                <div>
+                  <p data-aos="fade-left" class="contacts-info__title header-main__contacts-title">Mail Us</p>
+                  <a data-aos="fade-left"
+                    data-aos-delay="100"
+                    href="malito:info@bluecollar.com"
+                    class="contacts-info__link header-main__contacts-link"
+                    >Info@bluecollar.com</a
+                  >
+                </div>
+              </li>
+              <li class="contacts-info__item header-main__contacts-item">
+                <div data-aos="fade" data-aos-duration="1000" data-aos-delay="300" class="contacts-info__icon header-main__contacts-icon">
+                  <svg
+                    width="26"
+                    height="26"
+                    viewBox="0 0 26 26"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M24.2509 19.8062C23.3347 18.8832 21.1158 17.5361 20.0393 16.9933C18.6373 16.2871 18.5219 16.2294 17.42 17.0481C16.6849 17.5944 16.1963 18.0824 15.3361 17.899C14.4759 17.7155 12.6066 16.6811 10.9698 15.0497C9.33303 13.4182 8.23858 11.4948 8.05454 10.6376C7.8705 9.78029 8.36666 9.29743 8.90783 8.56073C9.67054 7.52231 9.61285 7.34924 8.96091 5.94738C8.45263 4.85704 7.06625 2.65906 6.13969 1.74756C5.14851 0.768566 5.14851 0.941635 4.50984 1.20701C3.98989 1.42576 3.49106 1.69167 3.01961 2.0014C2.09651 2.61464 1.58419 3.12404 1.22591 3.88959C0.867636 4.65513 0.70667 6.44986 2.55691 9.81087C4.40714 13.1719 5.70525 14.8905 8.39205 17.5696C11.0788 20.2487 13.1449 21.6892 16.1651 23.383C19.9014 25.4754 21.3345 25.0675 22.1024 24.7098C22.8703 24.3522 23.382 23.8445 23.9965 22.9215C24.307 22.4508 24.5735 21.9526 24.7926 21.4331C25.0586 20.7967 25.2317 20.7967 24.2509 19.8062Z"
+                      stroke="#1C2752"
+                      stroke-width="2"
+                      stroke-miterlimit="10"
+                    />
+                  </svg>
+                </div>
+                <div>
+                  <p data-aos-delay="300" data-aos="fade-left" class="contacts-info__title header-main__contacts-title">Call Us</p>
+                  <a data-aos-delay="400" data-aos="fade-left" href="tel:+01569896654" class="contacts-info__link header-main__contacts-link"
+                    >+01 569 896 654</a
+                  >
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="header-main__menu-wrapper">
+            <nav class="flex-wrapper header-menu">
+              <ul class="header-menu__link-wrapper">
+                <li data-aos="zoom-in" data-aos-duration="600"><a href="" class="header-menu__link _active">Home</a></li>
+                <li data-aos="zoom-in" data-aos-duration="600" data-aos-delay="200"><a href="" class="header-menu__link">About Us</a></li>
+                <li data-aos="zoom-in" data-aos-duration="600" data-aos-delay="400"><a href="" class="header-menu__link">Pages</a></li>
+                <li data-aos="zoom-in" data-aos-duration="600" data-aos-delay="600"><a href="" class="header-menu__link">Blog</a></li>
+                <li data-aos="zoom-in" data-aos-duration="600" data-aos-delay="800"><a href="" class="header-menu__link">Contact Us</a></li>
+              </ul>
+              <a data-aos="zoom-in" data-aos-delay="1000" href="" class="btn header-menu__btn">Have Any Questions?</a>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="main" style="background-image: url('./images/bg/main-bg.png')">
+      <div class="container">
+        <div class="main__content">
+          <div data-aos="fade-up" class="short-about-text main__short-about-text">
+            <!-- change class name, please -->
+            <img src="./images/icons/gear.svg" />
+            <p>
+              Improve our customers’ lives by providing effective solutions.
+            </p>
+          </div>
+          <h1 data-aos-delay="200" data-aos="fade-up" class="title">A recognized leader in services industry</h1>
+          <a data-aos-delay="300" data-aos="zoom-in-up" href="" class="btn main__btn">View Services</a>
+        </div>
+      </div>
+    </main>
+
+    <section class="about-us">
+      <div class="container">
+        <div class="flex-wrapper about-us__wrapper">
+          <div data-aos="fade-right" class="about-us__img-wrapper">
+            <img src="./images/about-us.png" alt="" />
+          </div>
+          <div class="about-us__content">
+            <div data-aos="fade-up" class="short-about-text">
+              <img src="./images/icons/logo-sm.svg" />
+              <p>Welcome BlueCollar</p>
+            </div>
+            <h2 data-aos="fade-up" data-aos-delay="300" class="section-title about-us__title">
+              We Provide Your Future
+            </h2>
+            <p data-aos="fade-up" data-aos-delay="600" class="about-us__text">
+              Bluecollar Electrical services was established in 2008. We are
+              trusted and reliable electricians who serve customers in the city
+              as well as throughout United States Of America.
+            </p>
+            <p data-aos="fade-up" data-aos-delay="900" class="about-us__text">
+              We have extensive experience of domestic and business electrical
+              installations and no job is too small. Our customers value our
+              professionalism, work ethic and our competitive prices.
+            </p>
+            <div class="about-us__details">
+              <div data-aos="zoom-in" class="about-us__experience">
+                <span>35</span>
+                <p>Years Of Experience</p>
+              </div>
+              <ul class="about-us__benefits-list">
+                <li data-aos="fade-left">- For all your system requirements</li>
+                <li data-aos="fade-left" data-aos-delay="100">- All work undertaken by qualified</li>
+                <li data-aos="fade-left" data-aos-delay="200">- Experienced office staff on hand</li>
+                <li data-aos="fade-left" data-aos-delay="300">- A Full Guarantee On Workmanship</li>
+                <li data-aos="fade-left" data-aos-delay="400">- Properties at a reasonable price.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="we-offer">
+      <div class="container">
+        <div class="section-top _center we-offer__top">
+          <div data-aos="fade-up" class="short-about-text">
+            <img src="./images/icons/logo-sm.svg" />
+            <p>What we offer</p>
+          </div>
+          <h2 data-aos="fade-up" class="section-title">Professional Main Services</h2>
+          <p data-aos="fade-up" class="section-subtitle">
+            We have extensive experience of domestic and business electrical
+            installations and no job is too small. Our customers value our
+            professionalism, work ethic and our competitive prices.
+          </p>
+        </div>
+        <div class="tab we-offer__tab">
+          <button
+            data-aos="zoom-in"
+            class="btn tab__link we-offer__tablinks _active"
+            data-tablink="commercial"
+          >
+            <img src="./images/icons/commercial.svg" alt="" />
+            <p>Commercial</p>
+          </button>
+          <button
+            data-aos="zoom-in"
+            data-aos-delay="200"
+            class="btn tab__link we-offer__tablinks"
+            data-tablink="residential"
+          >
+            <img src="./images/icons/residential.svg" alt="" />
+            <p>Residential</p>
+          </button>
+          <button
+            data-aos="zoom-in"
+            data-aos-delay="400"
+            class="btn tab__link we-offer__tablinks"
+            data-tablink="industrial"
+          >
+            <img src="./images/icons/industrial.svg" alt="" />
+            <p>Industrial</p>
+          </button>
+        </div>
+
+        <div class="tab__contents-wrapper">
+          <div
+            class="flex-wrapper tab__content we-offer__tabcontent _show"
+            data-tabcontent="commercial"
+          >
+            <div class="tab__info-content">
+              <div class="short-about-text">
+                <img src="./images/icons/commercial.svg" />
+                <p>Electrical installation</p>
+              </div>
+              <h2>Commercial</h2>
+              <p class="tab__text">
+                Electrical & Maintenance Services Ltd offers a full range of
+                electrical services to suit your needs – from moving a light
+                switch to complete house rewires.
+              </p>
+              <p class="tab__text">
+                In addition to providing fully qualified, competent electricians
+                in and around London, the company also runs an electrical
+                wholesale shop.
+              </p>
+              <a href="" class="btn tab__content-btn">Read More</a>
+            </div>
+            <div class="tab__image-wrapper">
+              <img src="./images/tab__image.png" alt="commercial man" />
+            </div>
+          </div>
+
+          <div
+            class="flex-wrapper tab__content we-offer__tabcontent"
+            data-tabcontent="residential"
+          >
+            <div class="tab__info-content">
+              <div class="short-about-text">
+                <img src="./images/icons/residential.svg" />
+                <p>Electrical installation</p>
+              </div>
+              <h2>Commercial</h2>
+              <p class="tab__text">
+                Electrical & Maintenance Services Ltd offers a full range of
+                electrical services to suit your needs – from moving a light
+                switch to complete house rewires.
+              </p>
+              <p class="tab__text">
+                In addition to providing fully qualified, competent electricians
+                in and around London, the company also runs an electrical
+                wholesale shop.
+              </p>
+              <a href="" class="btn tab__content-btn">Read More</a>
+            </div>
+            <div class="tab__image-wrapper">
+              <img src="./images/tab__image.png" alt="commercial man" />
+            </div>
+          </div>
+
+          <div
+            class="flex-wrapper tab__content we-offer__tabcontent"
+            data-tabcontent="industrial"
+          >
+            <div class="tab__info-content">
+              <div class="short-about-text">
+                <img src="./images/icons/industrial.svg" />
+                <p>Electrical installation</p>
+              </div>
+              <h2>Commercial</h2>
+              <p class="tab__text">
+                Electrical & Maintenance Services Ltd offers a full range of
+                electrical services to suit your needs – from moving a light
+                switch to complete house rewires.
+              </p>
+              <p class="tab__text">
+                In addition to providing fully qualified, competent electricians
+                in and around London, the company also runs an electrical
+                wholesale shop.
+              </p>
+              <a href="" class="btn tab__content-btn">Read More</a>
+            </div>
+            <div class="tab__image-wrapper">
+              <img src="./images/tab__image.png" alt="commercial man" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="services">
+      <div class="container">
+        <div class="section-top _center">
+          <div data-aos="fade-up" class="short-about-text">
+            <img src="./images/icons/note.svg" />
+            <p>Area Of Service</p>
+          </div>
+          <h2 data-aos="fade-up" class="section-title">Our Services</h2>
+          <p data-aos="fade-up" class="section-subtitle">
+            We offers a comprehensive range of electrical services for domestic
+            and commercial properties at a reasonable price.
+          </p>
+        </div>
+        <div class="services__wrapper">
+          <div data-aos="zoom-in" class="service">
+            <img src="./images/icons/airCondition.svg" alt="air condition" />
+            <h4 class="service__title">Air condition service</h3>
+            <p>
+              Services are able to service your entire electrical infrastructure
+              from Thermal Imaging of your air condition from switch boards.
+            </p>
+            <a href="" class="service__btn">View More</a>
+          </div>
+
+          <div data-aos="zoom-in" class="service">
+            <img src="./images/icons/electrical.svg" alt="electrical" />
+            <h4 class="service__title">Electrical installation</h3>
+            <p>
+              The art electrical installations that provide all the necessary
+              electrical solutions to suit your business, home or industrial
+              premises.
+            </p>
+            <a href="" class="service__btn">View More</a>
+          </div>
+
+          <div data-aos="zoom-in" class="service">
+            <img src="./images/icons/building.svg" alt="building" />
+            <h4 class="service__title">General Builder</h3>
+            <p>
+              We provide impeccable safety assessments to both commercial,
+              residential properties. Our adept & knowledgeable electricians.
+            </p>
+            <a href="" class="service__btn">View More</a>
+          </div>
+
+          <div data-aos="zoom-in" class="service">
+            <img src="./images/icons/security.svg" alt="security" />
+            <h4 class="service__title">Security System</h3>
+            <p>
+              Utilized for measuring flow, temperature level & pressure in the
+              manufacturing industry array of technology is ensure productivity.
+            </p>
+            <a href="" class="service__btn">View More</a>
+          </div>
+
+          <div data-aos="zoom-in" class="service">
+            <img
+              src="./images/icons/serviceAndMaintenance.svg"
+              alt="service and maintenance"
+            />
+            <h4 class="service__title">Service & maintenance</h3>
+            <p>
+              Electrical Services are able to service your entire electrical
+              infrastructure from Thermal Imaging of your switch boards.
+            </p>
+            <a href="" class="service__btn">View More</a>
+          </div>
+
+          <div data-aos="zoom-in" class="service">
+            <img src="./images/icons/house.svg" alt="house" />
+            <h4 class="service__title">House Extensions</h3>
+            <p>
+              Traditionally, electricity is supplied through overhead network
+              poles, where the cable is connected to your building.
+            </p>
+            <a href="" class="service__btn">View More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="why-choose-us">
+      <div
+        class="why-choose-us__left"
+        style="background-image: url('./images/bg/whyChooseUs-bg.png')"
+      >
+        <ul class="why-choose-us__counter-list">
+          <li data-aos="fade-right" class="why-choose-us__counter-item">
+            <div class="why-choose-us__counter">
+              <p data-digits-counter>3956</p>
+            </div>
+            <div class="why-choose-us__counter-text">
+              <p>Project Done</p>
+            </div>
+          </li>
+
+          <li data-aos="fade-right" class="why-choose-us__counter-item">
+            <div class="why-choose-us__counter">
+              <p data-digits-counter>854</p>
+            </div>
+            <div class="why-choose-us__counter-text">
+              <p>People Working</p>
+            </div>
+          </li>
+
+          <li data-aos="fade-right" class="why-choose-us__counter-item">
+            <div class="why-choose-us__counter">
+              <p data-digits-counter>265</p>
+            </div>
+            <div class="why-choose-us__counter-text">
+              <p>Business Partners</p>
+            </div>
+          </li>
+
+          <li data-aos="fade-right" class="why-choose-us__counter-item">
+            <div class="why-choose-us__counter">
+              <p data-digits-counter>845</p>
+              +
+            </div>
+            <div class="why-choose-us__counter-text">
+              <p>Happy Customers</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="why-choose-us__content">
+        <div class="why-choose-us__content-wrapper">
+          <div class="why-choose-us__content-top">
+            <div data-aos="fade-up" class="short-about-text">
+              <img src="./images/icons/note.svg" />
+              <p>Why Choose Us</p>
+            </div>
+            <h2 data-aos="fade-up" class="section-title">Few Reasons Why You Should Choose Us</h2>
+            <p data-aos="fade-up" class="section-subtitle">
+              We are offering the following information's about us that what we
+              actually do in the electrical sector. To Improve our customers’
+              lives by providing creative and cost-effective solutions to their
+              needs.
+            </p>
+          </div>
+          <ul class="why-choose-us__benefits-list">
+            <li data-aos="fade-left" class="list-item why-choose-us__benefit-item">
+              <h5 class="why-choose-us__benefit-title">35 Years Experience</h4>
+              <p>
+                Effective communication is the key to success for any business.
+                From our office staff, to our field.
+              </p>
+            </li>
+            <li data-aos="fade-left" class="list-item why-choose-us__benefit-item">
+              <h5 class="why-choose-us__benefit-title">
+                Excellence Certificate
+              </h4>
+              <p>
+                We understand fully that your time is of extreme value. We are
+                committed to meeting deadlines.
+              </p>
+            </li>
+            <li data-aos="fade-left" class="list-item why-choose-us__benefit-item">
+              <h5 class="why-choose-us__benefit-title">Affordable Price</h4>
+              <p>
+                We adhere strictly to the current National Electrical Code, and
+                we conduct regular in-house sessions.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="gallery">
+      <div class="section-top _center">
+        <div data-aos="fade-up" class="short-about-text">
+          <img src="./images/icons/note.svg" />
+          <p>The Gallery</p>
+        </div>
+        <h2 data-aos="fade-up" class="section-title">Our Recent Projects</h2>
+      </div>
+
+      <div class="gallery__wrapper">
+        <div data-aos="zoom-in" class="gallery__item">
+          <div
+            class="gallery__image"
+            style="background-image: url('./images/gallery/1.png')"
+          ></div>
+          <h4 data-aos="fade-up" data-aos-delay="300">Fiber cable change</h3>
+          <p data-aos="fade-up" data-aos-delay="400">Commercial</p>
+        </div>
+        <div data-aos="zoom-in" class="gallery__item">
+          <div class="gallery__image" style="background-image: url('./images/gallery/2.png')"></div>
+          <h4 data-aos="fade-up" data-aos-delay="300">Industry machine issue</h3>
+          <p data-aos="fade-up" data-aos-delay="400">Industry</p>
+        </div>
+        <div data-aos="zoom-in" class="gallery__item">
+          <div class="gallery__image" style="background-image: url('./images/gallery/3.png')"></div>
+          <h4 data-aos="fade-up" data-aos-delay="300">Wheel Alloy Change</h3>
+          <p data-aos="fade-up" data-aos-delay="400">Residential</p>
+        </div>
+        <div data-aos="zoom-in" class="gallery__item">
+          <div class="gallery__image" style="background-image: url('./images/gallery/4.png')"></div>
+          <h4 data-aos="fade-up" data-aos-delay="300">Roof Cleaning</h3>
+          <p data-aos="fade-up" data-aos-delay="400">Commercial</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="contacts">
+      <div class="container">
+        <div class="flex-wrapper contacts__wrapper">
+          <div class="contacts__col">
+            <div class="testimonial">
+              <div class="testimonial__top">
+                <div data-aos="fade-up" class="short-about-text">
+                  <img src="./images/icons/note.svg" />
+                  <p>Testimonial</p>
+                </div>
+                <h2 data-aos="fade-up" class="section-title">Customers Says</h2>
+              </div>
+
+              <div data-aos="fade-in" class="splide testimonial__comments">
+                <div class="splide__arrows">
+                  <button class="splide__arrow splide__arrow--prev">
+                    <img src="/images/icons/arrow-prev.svg" alt="">
+                  </button>
+                  <button class="splide__arrow splide__arrow--next">
+                    <img src="/images/icons/arrow-next.svg">
+                  </button>
+                </div>
+                <div class="splide__track">
+                  <div class="splide__list">
+                    <div class="splide__slide comment">
+                      <div class="flex-wrapper comment__top">
+                        <div class="comment__author">
+                          <img src="/images/comment__author.png" alt="Nancy luther photo">
+                          <div>
+                            <p class="comment__author-name">Nancy luther</p>
+                            <p class="comment__author-location">NewYork</p>
+                          </div>
+                        </div>
+                        <div class="comment__quotes">
+                          <img src="/images/icons/quotes.svg" alt="quotes">
+                        </div>
+                      </div>
+
+                      <p class="comment__text">
+                        We have had several good experiences with <span>Blue Collar</span> team. Most recently, they replaced our 20-year-old HVAC system
+                        with a new, <span>modern, and more efficient</span> system & it worked fine.
+                      </p>
+                    </div>
+                    
+                    <div class="splide__slide comment">
+                      <div class="flex-wrapper comment__top">
+                        <div class="comment__author">
+                          <img src="/images/comment__author.png" alt="Nancy luther photo">
+                          <div>
+                            <p class="comment__author-name">Nancy luther</p>
+                            <p class="comment__author-location">NewYork</p>
+                          </div>
+                        </div>
+                        <div class="comment__quotes">
+                          <img src="/images/icons/quotes.svg" alt="quotes">
+                        </div>
+                      </div>
+                    
+                      <p class="comment__text">
+                        We have had several good experiences with <span>Blue Collar</span> team. Most recently, they replaced our
+                        20-year-old HVAC system
+                        with a new, <span>modern, and more efficient</span> system & it worked fine.
+                      </p>
+                    </div>
+
+                    <div class="splide__slide comment">
+                      <div class="flex-wrapper comment__top">
+                        <div class="comment__author">
+                          <img src="/images/comment__author.png" alt="Nancy luther photo">
+                          <div>
+                            <p class="comment__author-name">Nancy luther</p>
+                            <p class="comment__author-location">NewYork</p>
+                          </div>
+                        </div>
+                        <div class="comment__quotes">
+                          <img src="/images/icons/quotes.svg" alt="quotes">
+                        </div>
+                      </div>
+                    
+                      <p class="comment__text">
+                        We have had several good experiences with <span>Blue Collar</span> team. Most recently, they replaced our
+                        20-year-old HVAC system
+                        with a new, <span>modern, and more efficient</span> system & it worked fine.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="contacts-banner">
+              <div>
+                  <div data-aos="fade-up" class="short-about-text">
+                    <img src="./images/icons/note.svg" />
+                    <p>Any Question</p>
+                  </div>
+                  <h4 data-aos="fade-up">99.9% Customer Satisfaction Based</h3>
+                  <p data-aos="fade-up">If you have any questions or need help contact with our team, or call</p>
+              </div>
+              <div data-aos="fade-up" class="flex-wrapper contacts-banner__telephone">
+                <div class="flex-wrapper contacts-banner__telephone-image">
+                  <img src="/images/icons/telephone.svg" alt="">
+                </div>
+                <p class="contacts-banner__telephone-text">(003) 123 456 7890</p>
+              </div>
+            </div>
+          </div>
+          <div class="contacts__col">
+            <div>
+              <div data-aos="fade-up" class="short-about-text">
+                <img src="./images/icons/note.svg" />
+                <p>Meet Us</p>
+              </div>
+              <h2 data-aos="fade-up" class="section-title">Appointment Form</h2>
+            </div>
+            <form action="" class="appointment-form">
+              <input data-aos="fade-up" type="text" name="name" class="input appointment-form__input" placeholder="Your name">
+              <input data-aos="fade-up" type="text" name="email" class="input appointment-form__input" placeholder="Your email">
+              <input data-aos="fade-up" type="tel" name="phoneNumber" class="input appointment-form__input" placeholder="Phone Number">
+              <input data-aos="fade-up" type="date" name="date" class="input appointment-form__input" placeholder="Date">
+              <textarea data-aos="fade-up" name="description" placeholder="Service Description"></textarea>
+              <button data-aos="fade-up" type="submit" class="btn appointment-form__button">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="clients">
+      <div class="container">
+        <div class="section-top _center">
+          <div data-aos="fade-up" class="short-about-text">
+            <img src="./images/icons/note.svg" />
+            <p>Clients</p>
+          </div>
+          <h2 data-aos="fade-up" class="section-title">Our Trusted Big Clients!</h2>
+        </div>
+        <div class="clients__wrapper">
+          <div data-aos="zoom-in" class="clients__item">
+            <img src="/images/clients/1.png" alt="Bride">
+          </div>
+          <div data-aos="zoom-in" class="clients__item">
+            <img src="/images/clients/2.png" alt="Building">
+          </div>
+          <div data-aos="zoom-in" class="clients__item">
+            <img src="/images/clients/3.png" alt="Construction">
+          </div>
+          <div data-aos="zoom-in" class="clients__item">
+            <img src="/images/clients/4.png" alt="Cpmany">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="price">
+      <div class="container">
+        <div class="flex-wrapper price__top-wrapper">
+          <div>
+            <div data-aos="fade-right" class="short-about-text">
+              <img src="./images/icons/note.svg" />
+              <p>Price Plan</p>
+            </div>
+            <h2 data-aos="fade-right" class="section-title">Let’s Customize Work With Affordable Price</h2>
+          </div>
+          <p data-aos="fade-left">
+            This is passionate about delivering growth and the new possibilities in the field of electrical services. We have
+            extensive experience of domestic and business electrical installations and no job is too small.
+          </p>
+        </div>
+        <div class="price__items-wrapper">
+          <div data-aos="zoom-out" class="price-item price__item">
+            <div class="flex-wrapper price-item__top">
+              <div>
+                <p class="price-item__category">Basic Plan</p>
+                <p class="price-item__price">$ 599.00</p>
+              </div>
+              <div>
+                <p class="price-item__top-text">
+                  Per Visit Charge
+                </p>
+              </div>
+            </div>
+            <ul class="price-item__benefits">
+              <li><p>Electrical Service</p></li>
+              <li><p>Distribution Power Systemss</p></li>
+              <li><p>High & Medium Voltages</p></li>
+              <li><p>Industrial Control Systems</p></li>
+              <li><p>Switch Installation</p></li>
+              <li><p>Generator Installations</p></li>
+              <li><p>Innovative Construction</p></li>
+            </ul>
+            <a href="" class="btn price-item__btn">Buy Now</a>
+          </div>
+
+          <div data-aos="zoom-out" class="price-item price__item">
+            <div class="flex-wrapper price-item__top">
+              <div>
+                <p class="price-item__category">Standard</p>
+                <p class="price-item__price">$ 699.00</p>
+              </div>
+              <div>
+                <p class="price-item__top-label">POPULAR</p>
+                <p class="price-item__top-text">
+                  Per Visit Charge
+                </p>
+              </div>
+            </div>
+            <ul class="price-item__benefits">
+              <li><p>PLC Controls</p></li>
+              <li><p>Conveyor systems</p></li>
+              <li><p>Wiring renovations</p></li>
+              <li><p>Electric Water Heater Repair</p></li>
+              <li><p>Service And Panel Upgrades</p></li>
+              <li><p>Efficient Lighting Solutions</p></li>
+              <li><p>Site lighting  </p></li>
+            </ul>
+            <a href="" class="btn price-item__btn">Buy Now</a>
+          </div>
+
+          <div data-aos="zoom-out" class="price-item price__item">
+            <div class="flex-wrapper price-item__top">
+              <div>
+                <p class="price-item__category">Professional</p>
+                <p class="price-item__price">$ 799.00</p>
+              </div>
+              <div>
+                <p class="price-item__top-text">
+                  Per Visit Charge
+                </p>
+              </div>
+            </div>
+            <ul class="price-item__benefits">
+              <li><p>Cable Tray Installations</p></li>
+              <li><p>Wiring Upgrades</p></li>
+              <li><p>Energy Efficient Lighting</p></li>
+              <li><p>Emergency Generating</p></li>
+              <li><p>Pools And Hot Tubs</p></li>
+              <li><p>Air Conditioning Units</p></li>
+              <li><p>Generating Systems</p></li>
+            </ul>
+            <a href="" class="btn price-item__btn">Buy Now</a>
+          </div>
+        </div>
+
+        <ul class="price__bnefits">
+          <li data-aos="fade-right" class="list-item">
+            <h5 class="">Affordable Price</h4>
+            <p>We adhere strictly to the current National Electrical Code, and we conduct regular in-house sessions with our
+            technicians to review any code changes and applications.</p>
+          </li>
+          <li data-aos="fade-left" class="list-item">
+            <h5 class="">Fixed Plan</h4>
+            <p>We understand fully that your time is of extreme value. You will never have to worry about waiting around for our
+            trained technicians.24/7 Service Providers Affordable Price.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+
+    <section class="news">
+      <div class="container">
+        <div class="section-top _center news__top">
+          <div data-aos="fade-up" class="short-about-text">
+            <img src="./images/icons/note.svg" />
+            <p>Stay Updated</p>
+          </div>
+          <h2 data-aos="fade-up" class="section-title">Latest News & Articles</h2>
+        </div>
+        <div class="flex-wrapper news__wrapper">
+          <div data-aos="fade-right" class="news-item">
+            <div class="news-item__img-wrapper">
+              <img src="/images/news/1.png" alt="">
+              <div class="news-item__details">
+                <div class="news-item__details-item">
+                  <img src="/images/icons/person.svg" alt="">
+                  <p>Alex Louis</p>
+                </div>
+                <div class="news-item__details-item">
+                  <img src="/images/icons/clock.svg" alt="">
+                  <p>April 16, 2022</p>
+                </div>
+              </div>
+            </div>
+            <div class="news-item__content">
+              <h3>How Outside Lighting can Transform Your Summer Garden</h3>
+              <p class="news-item__text">Capitalize on low-hanging fruit to identify a ballpark value added matrix economically activity to beta test override
+              the multiple touchpoints for offshoring the digital divide with DevOps.</p>
+              <a href="" class="news-item__link">
+                <p>View More</p>
+                <img src="/images/icons/arrowViewMore.svg" alt="">
+              </a>
+            </div>
+          </div>
+
+          <div data-aos="fade-left" class="news-item">
+            <div class="news-item__img-wrapper">
+              <img src="/images/news/2.png" alt="">
+              <div class="news-item__details">
+                <div class="news-item__details-item">
+                  <img src="/images/icons/person.svg" alt="">
+                  <p>John Christin</p>
+                </div>
+                <div class="news-item__details-item">
+                  <img src="/images/icons/clock.svg" alt="">
+                  <p>April 16, 2022</p>
+                </div>
+              </div>
+            </div>
+            <div class="news-item__content">
+              <h3>Easy Energy Saving Solutions for Industrial Businesses</h3>
+              <p class="news-item__text">Strategies on low-hanging fruit to identify a ballpark value added activity matrix economically to beta test override
+              multiple touchpoints for offshoring the digital divide with DevOps.</p>
+              <a href="" class="news-item__link">
+                <p>View More</p>
+                <img src="/images/icons/arrowViewMore.svg" alt="">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="subscribe-newsletter">
+      <div class="container">
+        <div class="flex-wrapper subscribe-newsletter__wrapper">
+          <div class="subscribe-newsletter__content">
+            <h3 data-aos="fade-right">Subscribe Our Newsletter</h3>
+            <p data-aos="fade-right">Stay in touch with us to get latest news. We are here to fit the needs of your electrical services for your dream
+            building.</p>
+          </div>
+          <form data-aos="zoom-in" action="" class="subscribe-newsletter__form">
+            <input type="text" class="subscribe-newsletter__input" placeholder="Enter your email address">
+            <button type="submit" class="subscribe-newsletter__button">Subscribe</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="flex-wrapper footer__top">
+          <a data-aos="fade-right" class="logo">
+            <svg width="242" height="48" viewBox="0 0 242 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_4_671)">
+                <path
+                  d="M57.0072 35.5002V10.8252H68.3822C71.0888 10.8252 73.1772 11.3969 74.6472 12.5402C76.1172 13.6835 76.8522 15.2469 76.8522 17.2302C76.8522 18.7002 76.4089 19.9485 75.5222 20.9752C74.6588 22.0019 73.4688 22.6902 71.9522 23.0402V22.4802C73.7255 22.7835 75.0905 23.4602 76.0472 24.5102C77.0272 25.5369 77.5172 26.8785 77.5172 28.5352C77.5172 30.7285 76.7355 32.4435 75.1722 33.6802C73.6322 34.8935 71.4972 35.5002 68.7672 35.5002H57.0072ZM62.2222 31.4402H68.1022C69.4555 31.4402 70.4939 31.1835 71.2172 30.6702C71.9405 30.1569 72.3022 29.3402 72.3022 28.2202C72.3022 27.0769 71.9405 26.2602 71.2172 25.7702C70.4939 25.2569 69.4555 25.0002 68.1022 25.0002H62.2222V31.4402ZM62.2222 20.9752H67.4022C68.8255 20.9752 69.8755 20.7185 70.5522 20.2052C71.2289 19.6919 71.5672 18.9219 71.5672 17.8952C71.5672 16.8919 71.2289 16.1335 70.5522 15.6202C69.8755 15.1069 68.8255 14.8502 67.4022 14.8502H62.2222V20.9752ZM81.0273 35.5002V9.74023H86.3123V35.5002H81.0273ZM97.0718 35.8852C94.8551 35.8852 93.2101 35.2785 92.1368 34.0652C91.0635 32.8285 90.5268 30.9619 90.5268 28.4652V17.7552H95.8118V28.4652C95.8118 29.5852 96.0335 30.4135 96.4768 30.9502C96.9435 31.4869 97.6551 31.7552 98.6118 31.7552C99.6618 31.7552 100.525 31.3935 101.202 30.6702C101.902 29.9235 102.252 28.9319 102.252 27.6952V17.7552H107.537V35.5002H102.392V32.1052H102.882C102.345 33.2952 101.575 34.2285 100.572 34.9052C99.5918 35.5585 98.4251 35.8852 97.0718 35.8852ZM120.817 35.8852C117.737 35.8852 115.333 35.0569 113.607 33.4002C111.88 31.7435 111.017 29.4919 111.017 26.6452C111.017 24.8019 111.378 23.1919 112.102 21.8152C112.848 20.4385 113.875 19.3652 115.182 18.5952C116.512 17.8019 118.063 17.4052 119.837 17.4052C121.587 17.4052 123.045 17.7785 124.212 18.5252C125.402 19.2719 126.288 20.3219 126.872 21.6752C127.478 23.0052 127.782 24.5569 127.782 26.3302V27.5552H115.357V24.9302H123.932L123.337 25.4202C123.337 23.9502 123.033 22.8419 122.427 22.0952C121.843 21.3252 120.992 20.9402 119.872 20.9402C118.635 20.9402 117.678 21.3952 117.002 22.3052C116.348 23.2152 116.022 24.5219 116.022 26.2252V26.7852C116.022 28.5119 116.442 29.7952 117.282 30.6352C118.145 31.4752 119.382 31.8952 120.992 31.8952C121.948 31.8952 122.847 31.7785 123.687 31.5452C124.55 31.2885 125.367 30.8919 126.137 30.3552L127.607 33.8552C126.72 34.5085 125.693 35.0102 124.527 35.3602C123.383 35.7102 122.147 35.8852 120.817 35.8852ZM143.42 35.8852C140.783 35.8852 138.52 35.3602 136.63 34.3102C134.74 33.2602 133.281 31.7902 132.255 29.9002C131.251 27.9869 130.75 25.7352 130.75 23.1452C130.75 20.5552 131.251 18.3152 132.255 16.4252C133.281 14.5352 134.74 13.0652 136.63 12.0152C138.52 10.9652 140.783 10.4402 143.42 10.4402C145.123 10.4402 146.675 10.6852 148.075 11.1752C149.475 11.6419 150.665 12.3302 151.645 13.2402L149.93 17.5452C148.856 16.7052 147.83 16.1102 146.85 15.7602C145.893 15.4102 144.808 15.2352 143.595 15.2352C141.285 15.2352 139.511 15.9235 138.275 17.3002C137.061 18.6535 136.455 20.6019 136.455 23.1452C136.455 25.6885 137.061 27.6485 138.275 29.0252C139.511 30.4019 141.285 31.0902 143.595 31.0902C144.808 31.0902 145.893 30.9152 146.85 30.5652C147.83 30.2152 148.856 29.6202 149.93 28.7802L151.645 33.0852C150.665 33.9719 149.475 34.6602 148.075 35.1502C146.675 35.6402 145.123 35.8852 143.42 35.8852ZM162.264 35.8852C160.374 35.8852 158.729 35.5119 157.329 34.7652C155.953 33.9952 154.879 32.9219 154.109 31.5452C153.363 30.1685 152.989 28.5235 152.989 26.6102C152.989 24.7202 153.363 23.0869 154.109 21.7102C154.879 20.3335 155.953 19.2719 157.329 18.5252C158.729 17.7785 160.374 17.4052 162.264 17.4052C164.154 17.4052 165.799 17.7785 167.199 18.5252C168.599 19.2719 169.673 20.3335 170.419 21.7102C171.189 23.0869 171.574 24.7202 171.574 26.6102C171.574 28.5235 171.189 30.1685 170.419 31.5452C169.673 32.9219 168.599 33.9952 167.199 34.7652C165.799 35.5119 164.154 35.8852 162.264 35.8852ZM162.264 31.8952C163.478 31.8952 164.434 31.4635 165.134 30.6002C165.858 29.7369 166.219 28.4069 166.219 26.6102C166.219 24.8135 165.858 23.4952 165.134 22.6552C164.434 21.8152 163.478 21.3952 162.264 21.3952C161.051 21.3952 160.083 21.8152 159.359 22.6552C158.659 23.4952 158.309 24.8135 158.309 26.6102C158.309 28.4069 158.659 29.7369 159.359 30.6002C160.083 31.4635 161.051 31.8952 162.264 31.8952ZM201.091 35.8852C199.551 35.8852 198.198 35.5119 197.031 34.7652C195.865 34.0185 194.955 32.9569 194.301 31.5802C193.648 30.2035 193.321 28.5469 193.321 26.6102C193.321 24.6969 193.648 23.0519 194.301 21.6752C194.955 20.2985 195.865 19.2485 197.031 18.5252C198.198 17.7785 199.551 17.4052 201.091 17.4052C202.515 17.4052 203.786 17.7552 204.906 18.4552C206.05 19.1319 206.796 20.0535 207.146 21.2202H206.761L207.181 17.7552H212.256C212.186 18.5252 212.116 19.3069 212.046 20.1002C212 20.8702 211.976 21.6285 211.976 22.3752V35.5002H206.726L206.691 32.1752H207.111C206.738 33.2952 205.991 34.1935 204.871 34.8702C203.751 35.5469 202.491 35.8852 201.091 35.8852ZM202.701 31.8952C203.915 31.8952 204.895 31.4635 205.641 30.6002C206.388 29.7369 206.761 28.4069 206.761 26.6102C206.761 24.8135 206.388 23.4952 205.641 22.6552C204.895 21.8152 203.915 21.3952 202.701 21.3952C201.488 21.3952 200.508 21.8152 199.761 22.6552C199.015 23.4952 198.641 24.8135 198.641 26.6102C198.641 28.4069 199.003 29.7369 199.726 30.6002C200.473 31.4635 201.465 31.8952 202.701 31.8952ZM216.276 35.5002V22.4452C216.276 21.6752 216.252 20.8935 216.206 20.1002C216.182 19.3069 216.124 18.5252 216.031 17.7552H221.106L221.701 22.9352H220.896C221.129 21.6752 221.502 20.6369 222.016 19.8202C222.552 19.0035 223.206 18.3969 223.976 18.0002C224.769 17.6035 225.667 17.4052 226.671 17.4052C227.114 17.4052 227.464 17.4285 227.721 17.4752C227.977 17.4985 228.234 17.5569 228.491 17.6502L228.456 22.3052C227.966 22.0952 227.546 21.9669 227.196 21.9202C226.869 21.8502 226.449 21.8152 225.936 21.8152C224.956 21.8152 224.139 22.0019 223.486 22.3752C222.856 22.7485 222.377 23.2969 222.051 24.0202C221.747 24.7435 221.596 25.6185 221.596 26.6452V35.5002H216.276Z"
+                  fill="white" />
+                <path d="M174.987 35.5002V9.74023H180.272V35.5002H174.987ZM184.592 35.5002V9.74023H189.877V35.5002H184.592Z"
+                  fill="#FFB342" />
+                <path
+                  d="M39.0644 29.598H44V25.5H29.733C29.4735 29.7521 25.9028 33.126 21.5381 33.126C17.1734 33.126 13.6027 29.7521 13.3432 25.5H3.58201e-07L0 29.598H4.07408C4.29205 30.4402 4.57749 31.267 4.92003 32.0784C5.30927 32.9925 5.77118 33.8655 6.30574 34.6923L2.74027 38.2203L8.35575 43.7768L11.9264 40.2437C12.7516 40.7624 13.6235 41.2143 14.5317 41.5943C15.5541 42.0205 16.6077 42.3543 17.682 42.5854V47.5H25.6329V42.5443C26.645 42.3133 27.6362 41.9949 28.6015 41.5943C29.5773 41.1886 30.5062 40.7007 31.3833 40.1359L34.8917 43.6074L40.5124 38.0457L36.9469 34.5177C37.4348 33.7423 37.8552 32.9258 38.2184 32.0784C38.561 31.267 38.8464 30.4402 39.0644 29.598Z"
+                  fill="white" />
+                <path
+                  d="M36.9436 7.67054V15.9455C36.9436 16.5071 36.4796 16.9627 35.9078 16.9627H35.1741C34.6022 16.9627 34.1383 16.5071 34.1383 15.9455V5.51968C32.0127 4.13169 29.6282 3.09334 27.0711 2.5V16.8567C27.0711 17.4183 26.6071 17.8739 26.0353 17.8739H17.9431C17.3712 17.8739 16.9073 17.4183 16.9073 16.8567V2.5C14.3825 3.09334 11.998 4.14228 9.87248 5.51968V15.9455C9.87248 16.5071 9.40853 16.9627 8.83668 16.9627H8.10299C7.53114 16.9627 7.06718 16.5071 7.06718 15.9455V7.67054C2.72977 11.612 0 17.2381 0 23.5H44C44.0108 17.2381 41.2918 11.612 36.9436 7.67054Z"
+                  fill="#FFB342" />
+                <path
+                  d="M25 15.1436C25 15.6171 24.653 16 24.2164 16H19.7836C19.3582 16 19 15.6171 19 15.1436V0.856423C19 0.382871 19.347 0 19.7836 0H24.2164C24.6418 0 25 0.382871 25 0.856423V15.1436Z"
+                  fill="#FFB342" />
+              </g>
+              <defs>
+                <clipPath id="clip0_4_671">
+                  <rect width="242" height="48" fill="white" />
+                </clipPath>
+              </defs>
+            </svg>
+          </a>
+
+          <ul class="contacts-info footer-main__contacts-info">
+            <li data-aos="fade-left" class="contacts-info__item footer__contacts-item">
+              <div class="contacts-info__icon">
+                <svg width="28" height="22" viewBox="0 0 28 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M24.5 1H3.5C2.11929 1 1 2.11929 1 3.5V18.5C1 19.8807 2.11929 21 3.5 21H24.5C25.8807 21 27 19.8807 27 18.5V3.5C27 2.11929 25.8807 1 24.5 1Z"
+                    stroke="#1C2752" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                  <path d="M5 5L14 12L23 5" stroke="#1C2752" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+              </div>
+              <div>
+                <p class="contacts-info__title">Mail Us</p>
+                <a href="malito:info@bluecollar.com" class="contacts-info__link footer__contacts-link">Info@bluecollar.com</a>
+              </div>
+            </li>
+            <li data-aos="fade-left" class="contacts-info__item">
+              <div class="contacts-info__icon">
+                <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M24.2509 19.8062C23.3347 18.8832 21.1158 17.5361 20.0393 16.9933C18.6373 16.2871 18.5219 16.2294 17.42 17.0481C16.6849 17.5944 16.1963 18.0824 15.3361 17.899C14.4759 17.7155 12.6066 16.6811 10.9698 15.0497C9.33303 13.4182 8.23858 11.4948 8.05454 10.6376C7.8705 9.78029 8.36666 9.29743 8.90783 8.56073C9.67054 7.52231 9.61285 7.34924 8.96091 5.94738C8.45263 4.85704 7.06625 2.65906 6.13969 1.74756C5.14851 0.768566 5.14851 0.941635 4.50984 1.20701C3.98989 1.42576 3.49106 1.69167 3.01961 2.0014C2.09651 2.61464 1.58419 3.12404 1.22591 3.88959C0.867636 4.65513 0.70667 6.44986 2.55691 9.81087C4.40714 13.1719 5.70525 14.8905 8.39205 17.5696C11.0788 20.2487 13.1449 21.6892 16.1651 23.383C19.9014 25.4754 21.3345 25.0675 22.1024 24.7098C22.8703 24.3522 23.382 23.8445 23.9965 22.9215C24.307 22.4508 24.5735 21.9526 24.7926 21.4331C25.0586 20.7967 25.2317 20.7967 24.2509 19.8062Z"
+                    stroke="#1C2752" stroke-width="2" stroke-miterlimit="10" />
+                </svg>
+              </div>
+              <div>
+                <p class="contacts-info__title">Call Us</p>
+                <a href="tel:+01569896654" class="contacts-info__link footer__contacts-link">+01 569 896 654</a>
+              </div>
+            </li>
+            <li data-aos="fade-left" class="contacts-info__item">
+              <div class="contacts-info__icon">
+                <svg width="22" height="32" viewBox="0 0 22 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M11 1C5.47917 1 1 5.42738 1 10.8803C1 17.1546 7.66667 27.0977 10.1146 30.532C10.2162 30.677 10.3494 30.7949 10.5032 30.8763C10.6571 30.9576 10.8273 31 11 31C11.1727 31 11.3429 30.9576 11.4968 30.8763C11.6506 30.7949 11.7838 30.677 11.8854 30.532C14.3333 27.0991 21 17.1597 21 10.8803C21 5.42738 16.5208 1 11 1Z"
+                    stroke="#1C2752" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                  <path
+                    d="M11 16C13.2091 16 15 14.2091 15 12C15 9.79086 13.2091 8 11 8C8.79086 8 7 9.79086 7 12C7 14.2091 8.79086 16 11 16Z"
+                    stroke="#1C2752" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+
+              </div>
+              <div>
+                <p class="contacts-info__title">Location</p>
+                <a href="tel:+01569896654" class="contacts-info__link footer__contacts-link">Amsterdam, 109-74</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer__content-wrapper">
+          <div class="footer__about-us">
+            <p data-aos="fade-right">We are here to fit the needs of your basic services for your dream building whether its a commercial, residential or
+            industry.</p>
+            <ul class="footer__social-links">
+              <li><a data-aos-delay="300" data-aos="fade-right" href="" class="footer__social-link">
+                <svg width="20" height="19" viewBox="0 0 20 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M13.6585 1.54725C14.7231 1.55031 15.7431 1.95889 16.4958 2.68376C17.2486 3.40863 17.6729 4.39088 17.6761 5.41599V13.1527C17.6729 14.1778 17.2486 15.16 16.4958 15.8849C15.7431 16.6098 14.7231 17.0183 13.6585 17.0214H5.6243C4.55976 17.0183 3.53973 16.6098 2.78698 15.8849C2.03423 15.16 1.60994 14.1778 1.60676 13.1527V5.41599C1.60994 4.39088 2.03423 3.40863 2.78698 2.68376C3.53973 1.95889 4.55976 1.55031 5.6243 1.54725H13.6585ZM13.6585 0H5.6243C2.53087 0 0 2.43713 0 5.41599V13.1527C0 16.1315 2.53087 18.5686 5.6243 18.5686H13.6585C16.752 18.5686 19.2828 16.1315 19.2828 13.1527V5.41599C19.2828 2.43713 16.752 0 13.6585 0Z"
+                    fill="white" />
+                  <path
+                    d="M14.8638 5.4163C14.6254 5.4163 14.3924 5.34823 14.1942 5.22071C13.996 5.09319 13.8416 4.91194 13.7504 4.69988C13.6591 4.48781 13.6353 4.25447 13.6818 4.02935C13.7283 3.80422 13.8431 3.59743 14.0116 3.43513C14.1802 3.27283 14.3949 3.16229 14.6287 3.11751C14.8625 3.07274 15.1048 3.09572 15.325 3.18356C15.5452 3.27139 15.7334 3.42014 15.8659 3.61099C15.9983 3.80184 16.069 4.02622 16.069 4.25576C16.0693 4.40825 16.0384 4.55931 15.9779 4.70026C15.9175 4.84121 15.8287 4.96928 15.7167 5.07711C15.6048 5.18494 15.4718 5.27042 15.3254 5.32862C15.179 5.38683 15.0222 5.41662 14.8638 5.4163ZM9.64151 6.18971C10.2772 6.18971 10.8986 6.37123 11.4271 6.7113C11.9556 7.05137 12.3676 7.53473 12.6108 8.10026C12.8541 8.66578 12.9177 9.28806 12.7937 9.88841C12.6697 10.4888 12.3636 11.0402 11.9141 11.4731C11.4646 11.9059 10.892 12.2007 10.2685 12.3201C9.64507 12.4395 8.99886 12.3782 8.41158 12.144C7.82431 11.9097 7.32236 11.513 6.96921 11.0041C6.61606 10.4951 6.42756 9.89674 6.42756 9.28463C6.42847 8.46407 6.76738 7.67738 7.36991 7.09716C7.97245 6.51694 8.7894 6.19059 9.64151 6.18971ZM9.64151 4.64246C8.68806 4.64246 7.75603 4.91472 6.96327 5.42481C6.17051 5.9349 5.55263 6.6599 5.18776 7.50815C4.82289 8.35639 4.72742 9.28978 4.91343 10.1903C5.09944 11.0908 5.55857 11.9179 6.23275 12.5671C6.90694 13.2163 7.76591 13.6585 8.70104 13.8376C9.63616 14.0167 10.6054 13.9248 11.4863 13.5734C12.3672 13.2221 13.1201 12.6271 13.6498 11.8637C14.1795 11.1003 14.4622 10.2028 14.4622 9.28463C14.4622 8.05345 13.9543 6.8727 13.0503 6.00212C12.1462 5.13155 10.92 4.64246 9.64151 4.64246Z"
+                    fill="white" />
+                </svg>
+
+              </a></li>
+              <li><a data-aos-delay="200" data-aos="fade-right" href="" class="footer__social-link">
+                <svg width="20" height="19" viewBox="0 0 20 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M19.2828 9.28432C19.2828 4.15722 14.9657 0 9.64141 0C4.31711 0 0 4.15722 0 9.28432C0 13.9182 3.52514 17.7592 8.13494 18.4563V11.9689H5.68628V9.28432H8.13494V7.23887C8.13494 4.9124 9.5747 3.62627 11.7767 3.62627C12.8317 3.62627 13.9353 3.80782 13.9353 3.80782V6.09284H12.7189C11.5219 6.09284 11.1475 6.80823 11.1475 7.54351V9.28432H13.8212L13.3942 11.9689H11.1479V18.4572C15.7577 17.7604 19.2828 13.9194 19.2828 9.28432Z"
+                    fill="white" />
+                </svg>
+
+              </a></li>
+              <li><a data-aos-delay="100" data-aos="fade-right" href="" class="footer__social-link">
+                <svg width="21" height="17" viewBox="0 0 21 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_4_725)">
+                    <path
+                      d="M20.6602 1.95842C19.8852 2.29516 19.0652 2.51701 18.2261 2.61696C19.1079 2.10062 19.7711 1.28032 20.0912 0.30991C19.2575 0.7974 18.3469 1.13945 17.3984 1.3214C16.9991 0.902826 16.5187 0.569842 15.9866 0.342684C15.4546 0.115526 14.8818 -0.00106199 14.3033 7.28894e-06C11.9609 7.28894e-06 10.0654 1.86803 10.0654 4.17078C10.0637 4.49108 10.1004 4.81043 10.1747 5.12201C8.49507 5.04327 6.85036 4.61479 5.34581 3.864C3.84126 3.1132 2.50999 2.05662 1.43717 0.761851C1.0608 1.39634 0.861758 2.12028 0.86084 2.858C0.86084 4.30421 1.61537 5.58256 2.75469 6.33149C2.07967 6.31547 1.41849 6.13681 0.827268 5.81068V5.86233C0.827268 7.8853 2.2907 9.56825 4.22759 9.95132C3.86336 10.0484 3.48803 10.0976 3.11108 10.0977C2.84361 10.0981 2.57674 10.0722 2.31437 10.0202C2.85283 11.6773 4.41999 12.8825 6.27639 12.9169C4.76793 14.0794 2.91593 14.7078 1.01149 14.7032C0.673443 14.7027 0.335713 14.6825 0 14.6429C1.9374 15.88 4.18947 16.5344 6.48815 16.5281C14.2943 16.5281 18.5589 10.1708 18.5589 4.65715C18.5589 4.47638 18.5541 4.2956 18.5455 4.11913C19.3733 3.53034 20.0893 2.79865 20.6602 1.95842Z"
+                      fill="white" />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_4_725">
+                      <rect width="21" height="17" fill="white" />
+                    </clipPath>
+                  </defs>
+                </svg>
+
+              </a>
+            </li>
+              <li><a data-aos="fade-right" href="" class="footer__social-link">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M9.79664 0C4.38662 0 0 4.38466 0 9.79227C0 13.801 2.41417 17.2458 5.86486 18.7627C5.83862 18.0807 5.86049 17.2589 6.03543 16.5157C6.22349 15.7201 7.295 11.178 7.295 11.178C7.295 11.178 6.9801 10.5529 6.9801 9.63052C6.9801 8.17916 7.81982 7.09502 8.86946 7.09502C9.76165 7.09502 10.1903 7.76387 10.1903 8.56386C10.1903 9.46003 9.61732 10.7977 9.3243 12.0392C9.07938 13.0797 9.84475 13.9234 10.8725 13.9234C12.7269 13.9234 13.9777 11.5409 13.9777 8.71687C13.9777 6.57044 12.5301 4.96608 9.9016 4.96608C6.932 4.96608 5.07763 7.18245 5.07763 9.65675C5.07763 10.5092 5.3313 11.1125 5.72491 11.5759C5.90422 11.7901 5.93046 11.8775 5.86486 12.1223C5.81675 12.3015 5.71179 12.7343 5.66368 12.9092C5.59808 13.1584 5.3969 13.2458 5.17385 13.154C3.80494 12.5944 3.16641 11.0994 3.16641 9.41194C3.16641 6.63164 5.51498 3.29615 10.1684 3.29615C13.9077 3.29615 16.37 6.00213 16.37 8.90484C16.37 12.7474 14.2314 15.6152 11.0824 15.6152C10.0241 15.6152 9.03128 15.0425 8.69014 14.3955C8.69014 14.3955 8.12159 16.6512 7.99913 17.0884C7.79357 17.8447 7.38684 18.5966 7.01509 19.1867C7.91686 19.4526 8.85208 19.5881 9.79226 19.5889C15.2023 19.5889 19.5889 15.2042 19.5889 9.79664C19.5889 4.38903 15.2067 0 9.79664 0Z"
+                    fill="white" />
+                </svg>
+
+              </a>
+            </li>
+            </ul>
+          </div>
+          <div class="footer__page-links footer__page-links_lg">
+            <div>
+              <h5 data-aos="fade-up">Explore</h5>
+              <ul data-aos="fade" class="footer__page-links-wrapper">
+                <li>
+                  <a href="" class="footer__page-link">
+                    About Us
+                  </a>
+                </li>
+                <li>
+                  <a href="" class="footer__page-link">
+                    Pricing
+                  </a>
+                </li>
+                <li>
+                  <a href="" class="footer__page-link">
+                    Team
+                  </a>
+                </li>
+                <li>
+                  <a href="" class="footer__page-link">
+                    Blog
+                  </a>
+                </li>
+                <li>
+                  <a href="" class="footer__page-link">
+                    Contact Us
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h5 data-aos="fade-up">Quick Links</h5>
+              <ul data-aos="fade" class="footer__page-links-wrapper">
+                <li>
+                  <a href="" class="footer__page-link">Home</a>
+                </li>
+                <li>
+                  <a href="" class="footer__page-link">Services</a>
+                </li>
+                <li>
+                  <a href="" class="footer__page-link">Service Single</a>
+                </li>
+                <li>
+                  <a href="" class="footer__page-link">Projects</a>
+                </li>
+                <li>
+                  <a href="" class="footer__page-link">Projects Single</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer__page-links">
+            <h5 data-aos="fade-up">Utility Pages</h5>
+            <ul data-aos="fade" class="footer__page-links-wrapper">
+              <li><a href="" class="footer__page-link">Style Guide</a></li>
+              <li><a href="" class="footer__page-link">Changelog</a></li>
+              <li><a href="" class="footer__page-link">Licenses</a></li>
+              <li><a href="" class="footer__page-link">Protected Page</a></li>
+              <li><a href="" class="footer__page-link">404 Page</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="copyright">
+      <div class="container">
+        <p data-aos="fade-in">Copyright &copy; Bluecollar 2021</p>
+      </div>
+    </div>
+  </body>
+</html>
